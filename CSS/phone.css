@@ -1,0 +1,18 @@
+#navbar{
+    flex-direction: column;
+}
+#logo{
+    margin-top: 5%;
+}
+#logo img{
+    height: 200px;
+    width: 200px;
+}
+.wrapper{
+    /* margin-top: %; */
+    height:900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

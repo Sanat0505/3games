@@ -1,0 +1,18 @@
+﻿body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:black;  
+  margin:0;
+}
+h2{
+    font-size: 3.5rem;
+    font-weight:bold;
+    text-align:center;
+	  color:rgba(255, 0, 0,0.8);
+}
+h3{
+    font-weight:lighter;
+    margin:3px 0px;
+    text-align:center;
+    color:rgba(0, 0, 255,0.8);
+    font-size: 2.5rem;
+}

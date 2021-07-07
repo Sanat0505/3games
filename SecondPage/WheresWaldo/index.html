@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WheresWaldo MiniGame</title>
+</head>
+<body>
+    <section id='waldoGame' class="app">
+		<nav class="controls">
+			<div id='indicator' class="indicator"><span id='points' class='points' data-counter='1000'>1000</span></div>
+			<a id='closeButton' class="close_btn" href="/"><span>&times;</span></a>
+		</nav>
+
+		<div class="board" draggable="true">
+			<ul class='target'></ul>
+		</div>
+    </section>
+
+
+    <script src="waldo.js"></script>
+</body>
+</html>
